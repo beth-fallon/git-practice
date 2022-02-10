@@ -14,6 +14,7 @@ paste("There are", nrow(distinct(birds)), "unique rows in this dataset.")
 
 # How many species groups are there?
 paste("There are", n_distinct(birds$species_group), "species groups.")
+#
 
 # Any missing data?
 any(is.na(birds$species_group))
